@@ -14,6 +14,9 @@ public class MainActivity extends AppCompatActivity {
                 eu te levarei
                 por um caminho
                 cheio de sombra e deluz
+                você pode até não perceber
+                mas o meu coração se amarrou em você
+                e precisa de alguám
         setContentView(R.layout.activity_main);
     }
 }
