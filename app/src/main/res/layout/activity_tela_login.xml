@@ -70,7 +70,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="47dp"
-        android:onClick="login"
+        android:onClick="startSecondActivity"
         android:text="Login"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"

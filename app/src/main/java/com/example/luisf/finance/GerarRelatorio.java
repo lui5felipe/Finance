@@ -35,5 +35,4 @@ public class GerarRelatorio extends AppCompatActivity {
             secondActivity.putExtras(infos);
         startActivity(secondActivity);
     }*/
-
 }
