@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".GerarRelatorio" />
-        <activity android:name=".Teste"></activity>
+        <activity android:name=".Main2Activity"></activity>
     </application>
 
 </manifest>
