@@ -6,11 +6,27 @@
     android:layout_height="match_parent"
     tools:context="com.example.luisf.finance.GerarRelatorio">
 
-    <ToggleButton
-        android:id="@+id/toggleButton"
+    <ImageButton
+        android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ToggleButton"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="50dp" />
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.591"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="teste"
+        android:text="teste"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="74dp" />
 </android.support.constraint.ConstraintLayout>
