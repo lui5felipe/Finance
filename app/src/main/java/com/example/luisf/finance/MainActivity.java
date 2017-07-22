@@ -1,5 +1,6 @@
 package com.example.luisf.finance;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -11,14 +12,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
     }
 
-    public void onCreate2(View view) {
-        setContentView(R.layout.activity_main2);
-    }
+    public void startSecondActivity(View view) {
 
-    public void onCreate3(View view) {
-        setContentView(R.layout.activity_main);
+        Intent secondActivity = new Intent(this, Main2Activity.class);
+        startActivity(secondActivity);
     }
 }
