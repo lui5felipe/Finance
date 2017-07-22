@@ -98,7 +98,7 @@
         android:visibility="invisible"
         android:layout_width="244dp"
         android:layout_height="209dp"
-        app:srcCompat="@mipmap/ic_launcher"
+        app:srcCompat="@mipmap/relatorio_teste"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
         app:layout_constraintTop_toTopOf="parent"
