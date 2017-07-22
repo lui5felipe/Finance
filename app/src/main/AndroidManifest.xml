@@ -22,7 +22,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".GerarRelatorio" />
-        <activity android:name=".Teste"></activity>
     </application>
 
 </manifest>
