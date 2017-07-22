@@ -11,12 +11,15 @@ public class Index extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.index);
-
     }
 
     public void startSecondActivity(View view) {
-
         Intent secondActivity = new Intent(this, GerarRelatorio.class);
+        startActivity(secondActivity);
+    }
+
+    public void startBuscarItem(View view) {
+        Intent secondActivity = new Intent(this, BuscarItem.class);
         startActivity(secondActivity);
     }
 }

@@ -21,26 +21,6 @@
         app:layout_constraintVertical_bias="0.106" />
 
     <Button
-        android:id="@+id/button3"
-        style="@style/Widget.AppCompat.Button.Small"
-        android:layout_width="158dp"
-        android:layout_height="54dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:backgroundTint="@android:color/background_light"
-        android:text="GERENCIAR CADASTRO"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.173"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.548"
-        tools:layout_editor_absoluteY="249dp" />
-
-    <Button
         android:id="@+id/button5"
         style="@style/Widget.AppCompat.Button.Small"
         android:layout_width="157dp"
@@ -53,11 +33,13 @@
         android:text="GERENCIAR ITENS."
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintHorizontal_bias="0.17"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.711" />
+        app:layout_constraintVertical_bias="0.569"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 
     <Button
         android:id="@+id/button6"
@@ -69,7 +51,8 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:backgroundTint="@android:color/background_light"
-        android:text="BUSCAR ITEM."
+        android:onClick="startBuscarItem"
+        android:text="BUSCAR ITEM"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.171"
@@ -77,7 +60,8 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.407"
-        tools:layout_editor_absoluteY="187dp" />
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 
     <Button
         android:id="@+id/button4"
@@ -97,7 +81,9 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.263" />
+        app:layout_constraintVertical_bias="0.263"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -113,7 +99,9 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.269"
-        app:srcCompat="@android:drawable/ic_menu_edit" />
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -129,23 +117,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
         app:layout_constraintHorizontal_bias="0.779"
-        app:layout_constraintVertical_bias="0.7" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/ic_menu_sort_by_size"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_bias="0.779"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintVertical_bias="0.548" />
+        app:layout_constraintVertical_bias="0.564"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -161,6 +135,8 @@
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintHorizontal_bias="0.779"
-        app:layout_constraintVertical_bias="0.41" />
+        app:layout_constraintVertical_bias="0.41"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
 
 </android.support.constraint.ConstraintLayout>
