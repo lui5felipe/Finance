@@ -12,7 +12,7 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        TextView textView = (TextView)findViewById(R.id.textView);
+        TextView textView = (TextView)findViewById(R.id.textView5);
         Intent intent = getIntent();
         Bundle infos = intent.getExtras();
         String texto = infos.getString("editText");

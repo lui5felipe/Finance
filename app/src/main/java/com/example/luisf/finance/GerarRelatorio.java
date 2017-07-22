@@ -16,7 +16,7 @@ public class GerarRelatorio extends AppCompatActivity {
 
     public void startSecondActivity(View view) {
         Intent secondActivity = new Intent(this, Main2Activity.class);
-            EditText editText = (EditText)findViewById(R.id.editText3);
+            EditText editText = (EditText)findViewById(R.id.editText);
             String texto = editText.getText().toString();
             Bundle infos = new Bundle();
             infos.putString("editText", texto);
