@@ -16,4 +16,6 @@
     </string>
     <string name="title_activity_testelogin2">Sign in</string>
     <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_buscar_item">BuscarItem</string>
+    <string name="title_activity_busca_item">BuscaItem</string>
 </resources>
