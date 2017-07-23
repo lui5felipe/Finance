@@ -24,7 +24,9 @@
         <activity android:name=".GerarRelatorio" />
         <activity android:name=".BuscarItem" />
         <activity android:name=".GerenciarItens" />
-        <activity android:name=".testeeeee"></activity>
+        <activity android:name=".testeeeee" />
+        <activity android:name=".gerenciaritens02" />
+        <activity android:name=".gerenciaritens03"></activity>
     </application>
 
 </manifest>
